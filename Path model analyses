@@ -1,6 +1,6 @@
 # ---Dissertation Analysis Script---
 #   
-# This script performs the following statistical analyses:
+# This script performs the following statistical analyses in R:
 #   Descriptive statistics
 #   Bi-variate correlations
 #   Hypothesis 1: Simple linear regression model
