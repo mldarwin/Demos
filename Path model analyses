@@ -4,8 +4,8 @@
 #   Descriptive statistics
 #   Bi-variate correlations
 #   Hypothesis 1: Simple linear regression model
-#   Hypothesis 2: Path model with lavaan package - mediation model
-#   Hypothesis 3: Path model with lavaan package - moderated mediation model
+#   Hypothesis 2: Mediation path model
+#   Hypothesis 3: Moderated mediation path model
 #   
 # Marielle L. Darwin | August 26 2021 | Last update: Sept 1 2021
 
