@@ -3,11 +3,11 @@
 # This script performs the following statistical analyses in R:
 #   Descriptive statistics
 #   Bi-variate correlations
-#   Hypothesis 1: Simple linear regression model
-#   Hypothesis 2: Path model with lavaan package - mediation model
-#   Hypothesis 3: Path model with lavaan package - moderated mediation model
+#   Hypothesis 1: Simple linear regression
+#   Hypothesis 2: Mediation model
+#   Hypothesis 3: Moderated mediation model
 #   
-# Marielle L. Darwin | August 26 2021 | Last update: Sept 1 2021
+# Marielle L. Darwin | August 26 2021 | Last update: October 20 2021
 
 # Install packages
 install.packages('lavaan')
@@ -77,6 +77,13 @@ parameterestimates(fit,
   level = .95, ci = TRUE,
   standardized = TRUE)
 
+# SEM plot
+labels <- list(HRV = "Heart rate variability", SCS_TOTAL = "Self-control")
+
+lavaanPlot(model = fit1, labels = labels, node_options = list(shape = "box", 
+           fontname = "times"), edge_options = list(color = "grey"), 
+           coefs = TRUE, covs = TRUE, stars = "regress")
+
 ##Hypothesis 2 ----------------------------------------
   # X = HRV
   # M = SCS_TOTAL
@@ -107,6 +114,14 @@ parameterEstimates(fit,
                    boot.ci.type = "bca.simple",
                    level = .95, ci = TRUE,
                    standardized = TRUE)
+
+# SEM plot
+labelsMed <- list(X = "Heart rate variability", M = "Self-control", 
+                  Y = "Depression")
+
+lavaanPlot(model = fit, labels = labelsMed, node_options = list(shape = "box", 
+           fontname = "times"), edge_options = list(color = "grey"), 
+           coefs = TRUE, covs = TRUE, stars = "regress")
 
 ##Hypothesis 3 ------------------------------------------
   # X = HRV
@@ -171,6 +186,14 @@ parameterEstimates(Mod.Med.SEM,
                    boot.ci.type = "bca.simple",
                    level = .95, ci = TRUE,
                    standardized = TRUE)
+
+# SEM plot
+labels <- list(HRV = "Heart rate variability", SCS_TOTAL = "Self-control", 
+               CESD_TOTAL = "Depression", AGE = "Age")
+
+lavaanPlot(model = Mod.Med.SEM, labels = labels, node_options = list(shape = 
+           "box", fontname = "times"), edge_options = list(color = "grey"), 
+           coefs = TRUE, covs = TRUE, stars = "regress")
 
 ##Family-wise error correction (Holm correction)-------------------
 
