@@ -11,16 +11,18 @@
 
 # Install packages
 install.packages('lavaan')
+install.packages('lavaanPlot')
 install.packages('mediation')
 install.packages('lme4')
 install.packages('pastecs')
-install.packages("ppcor")
-install.packages("apaTables")
-install.packages("psych")
+install.packages('ppcor')
+install.packages('apaTables')
+install.packages('psych')
 install.packages('tidyverse')
 
 # Load packages
 library(lavaan)
+library(lavaanPlot)
 library(mediation)
 library(lme4)
 library(pastecs)
@@ -198,8 +200,8 @@ lavaanPlot(model = Mod.Med.SEM, labels = labels, node_options = list(shape =
 ##Family-wise error correction (Holm correction)-------------------
 
 # # Vector of un-adjusted p-values
-# pvalues <- c(0.027,0.295,0.033,0.028,0.133,0.856,0.697,0.856,0.073,0.018)
-#      #Key: H1, H2_Y~X, H2_M~X, H2_Y~M, H2_ab, H3_a1, H3_a2, H3_a3, H3_c, H3_b1
+# pvalues <- c(0.027,0.295,0.073)
+#      #Key: H1, H2_Y~X, H3_c
 # 
 # # Adjust p-values
 # p.adjust(pvalues, method = "holm")
