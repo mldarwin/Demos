@@ -1,0 +1,133 @@
+Label,Name,Hemisphere,Matter_type
+4,third ventricle,both,NA
+11,fourth ventricle,both,NA
+23,accumbens,R,gray
+30,accumbens,L,gray
+31,amygdala,R,gray
+32,amygdala,L,gray
+35,brainstem,both,white
+36,caudate,R,gray
+37,caudate,L,gray
+38,cerebellum exterior,R,gray
+39,cerebellum exterior,L,gray
+40,cerebellum white matter,R,white
+41,cerebellum white matter,L,white
+44,cerebral white matter,R,white
+45,cerebral white matter,L,white
+47,hippocampus,R,gray
+48,hippocampus,L,gray
+49,inf lat vent,R,NA
+50,inf lat vent,L,NA
+51,lateral ventricle,R,NA
+52,lateral ventricle,L,NA
+55,pallidum,R,gray
+56,pallidum,L,gray
+57,putamen,R,gray
+58,putamen,L,gray
+59,thalamus,R,gray
+60,thalamus,L,gray
+61,ventral DC,R,gray
+62,ventral DC,L,gray
+71,lobules I-V,both,gray
+72,lobules VI-VII,both,gray
+73,lobules VIII-X,both,gray
+75,basal forebrain,R,gray
+76,basal forebrain,L,gray
+100,anterior cingulate gyrus,R,gray
+101,anterior cingulate gyrus,L,gray
+102,anterior insula,R,gray
+103,anterior insula,L,gray
+104,anterior orbital gyrus,R,gray
+105,anterior orbital gyrus,L,gray
+106,angular gyrus,R,gray
+107,angular gyrus,L,gray
+108,calcarine cortex,R,gray
+109,calcarine cortex,L,gray
+112,central operculum,R,gray
+113,central operculum,L,gray
+114,cuneus,R,gray
+115,cuneus,L,gray
+116,entorhinal area,R,gray
+117,entorhinal area,L,gray
+118,frontal operculum,R,gray
+119,frontal operculum,L,gray
+120,frontal pole,R,gray
+121,frontal pole,L,gray
+122,fusiform gyrus,R,gray
+123,fusiform gyrus,L,gray
+124,gyrus rectus,R,gray
+125,gyrus rectus,L,gray
+128,inf occipital gyrus,R,gray
+129,inf occipital gyrus,L,gray
+132,inf temporal gyrus,R,gray
+133,inf temporal gyrus,L,gray
+134,lingual gyrus,R,gray
+135,lingual gyrus,L,gray
+136,lateral orbital gyrus,R,gray
+137,lateral orbital gyrus,L,gray
+138,middle cingulate gyrus,R,gray
+139,middle cingulate gyrus,L,gray
+140,medial frontal cortex,R,gray
+141,medial frontal cortex,L,gray
+142,middle frontal gyrus,R,gray
+143,middle frontal gyrus,L,gray
+144,middle occipital gyrus,R,gray
+145,middle occipital gyrus,L,gray
+146,medial orbital gyrus,R,gray
+147,medial orbital gyrus,L,gray
+148,postcentral gyrus medial segment,R,gray
+149,postcentral gyrus medial segment,L,gray
+150,precentral gyrus medial segment,R,gray
+151,precentral gyrus medial segment,L,gray
+152,sup frontal gyrus medial segment,R,gray
+153,sup frontal gyrus medial segment,L,gray
+154,middle temporal gyrus,R,gray
+155,middle temporal gyrus,L,gray
+156,occipital pole,R,gray
+157,occipital pole,L,gray
+160,occipital fusiform gyrus,R,gray
+161,occipital fusiform gyrus,L,gray
+162,opercular inf frontal gyrus,R,gray
+163,opercular inf frontal gyrus,L,gray
+164,orbital inf frontal gyrus,R,gray
+165,orbital inf frontal gyrus,L,gray
+166,posterior cingulate gyrus,R,gray
+167,posterior cingulate gyrus,L,gray
+168,precuneus,R,gray
+169,precuneus,L,gray
+170,parahippocampal gyrus,R,gray
+171,parahippocampal gyrus,L,gray
+172,posterior insula,R,gray
+173,posterior insula,L,gray
+174,parietal operculum,R,gray
+175,parietal operculum,L,gray
+176,postcentral gyrus  ,R,gray
+177,postcentral gyrus,L,gray
+178,posterior orbital gyrus,R,gray
+179,posterior orbital gyrus,L,gray
+180,planum polare,R,gray
+181,planum polare,L,gray
+182,precentral gyrus  ,R,gray
+183,precentral gyrus,L,gray
+184,planum temporale,R,gray
+185,planum temporale,L,gray
+186,subcallosal area,R,gray
+187,subcallosal area,L,gray
+190,sup frontal gyrus  ,R,gray
+191,sup frintal gyrus,L,gray
+192,supplementary motor cortex,R,gray
+193,supplementary motor cortex,L,gray
+194,supramarginal gyrus,R,gray
+195,supramarginal gyrus,L,gray
+196,sup occipital gyrus,R,gray
+197,sup occipital gyrus,L,gray
+198,sup parietal lobule,R,gray
+199,sup parietal lobule,L,gray
+200,sup temporal gyrus,R,gray
+201,sup temporal gyrus,L,gray
+202,temporal pole,R,gray
+203,temporal pole,L,gray
+204,triangular inf frontal gyrus,R,gray
+205,triangular inf frontal gyrus,L,gray
+206,transverse temporal gyrus,R,gray
+207,transverse temporal gyrus,L,gray
